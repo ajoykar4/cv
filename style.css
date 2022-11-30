@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   
+    
+    background-color: rgb(178, 199, 192);
+}
+
+header{
+
+}
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    background-color: rgb(221, 115, 198);
+    padding: 20px;
+}
+
+img{
+    width:100px;
+    height: 100px;
+    border: 5px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.bio{
+    float: left; 
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: yellow;
+}
+.contract{
+    float:right;
+    padding: 30px;
+}.contract a{
+    text-decoration: none;
+    color:teal;
+    font-weight: bold;
+}
+
+.contract a:hover{
+    text-decoration: underline;
+    color: tomato;
+
+}
+.div-clear{
+    clear: both;
+   
+}
+hr{
+     border: solid black 3px;
+     width:100%;
+     margin: 20px auto;
+     border-bottom: none;
+}
